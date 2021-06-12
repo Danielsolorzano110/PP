@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #Own
-    'apps.principal',
-    'apps.seguridad',
+    # #Own
+    'principal.apps.PrincipalConfig',
+    'seguridad.apps.SeguridadConfig',
 
     #Packages
     'crispy_forms',

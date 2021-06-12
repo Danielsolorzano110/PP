@@ -3,7 +3,7 @@ from django.conf.urls import url
 from django.urls import path
 
 from .views import *
-from apps.seguridad.views import *
+from seguridad.views import *
 
 app_name = 'principal'
 
